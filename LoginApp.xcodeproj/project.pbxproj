@@ -9,21 +9,32 @@
 /* Begin PBXBuildFile section */
 		4E87BCA525DFE6B50060D325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87BCA425DFE6B50060D325 /* AppDelegate.swift */; };
 		4E87BCA725DFE6B50060D325 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87BCA625DFE6B50060D325 /* SceneDelegate.swift */; };
-		4E87BCA925DFE6B50060D325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87BCA825DFE6B50060D325 /* ViewController.swift */; };
+		4E87BCA925DFE6B50060D325 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87BCA825DFE6B50060D325 /* LoginViewController.swift */; };
 		4E87BCAC25DFE6B50060D325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E87BCAA25DFE6B50060D325 /* Main.storyboard */; };
 		4E87BCAE25DFE6BC0060D325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E87BCAD25DFE6BC0060D325 /* Assets.xcassets */; };
 		4E87BCB125DFE6BC0060D325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E87BCAF25DFE6BC0060D325 /* LaunchScreen.storyboard */; };
+		4E87BCC525DFE8980060D325 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87BCC225DFE8980060D325 /* DesignableTextField.swift */; };
+		4E87BCC625DFE8980060D325 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87BCC325DFE8980060D325 /* BounceButton.swift */; };
+		4E87BCC725DFE8980060D325 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87BCC425DFE8980060D325 /* DesignButton.swift */; };
+		4E87BCCC25DFED0C0060D325 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87BCCB25DFED0C0060D325 /* WelcomeViewController.swift */; };
+		4E87BCCF25DFEF560060D325 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87BCCE25DFEF560060D325 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E87BCA125DFE6B50060D325 /* LoginApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E87BCA425DFE6B50060D325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E87BCA625DFE6B50060D325 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E87BCA825DFE6B50060D325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E87BCA825DFE6B50060D325 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4E87BCAB25DFE6B50060D325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E87BCAD25DFE6BC0060D325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E87BCB025DFE6BC0060D325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E87BCB225DFE6BC0060D325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E87BCC225DFE8980060D325 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = ../../../../../OpenWeatherApp/OpenWeatherApp/ExtraResource/DesignableTextField.swift; sourceTree = "<group>"; };
+		4E87BCC325DFE8980060D325 /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BounceButton.swift; path = ../../../../../OpenWeatherApp/OpenWeatherApp/ExtraResource/BounceButton.swift; sourceTree = "<group>"; };
+		4E87BCC425DFE8980060D325 /* DesignButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignButton.swift; path = ../../../../../OpenWeatherApp/OpenWeatherApp/ExtraResource/DesignButton.swift; sourceTree = "<group>"; };
+		4E87BCC925DFE8B50060D325 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../../Montserrat/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		4E87BCCB25DFED0C0060D325 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4E87BCCE25DFEF560060D325 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +67,61 @@
 		4E87BCA325DFE6B50060D325 /* LoginApp */ = {
 			isa = PBXGroup;
 			children = (
-				4E87BCA425DFE6B50060D325 /* AppDelegate.swift */,
-				4E87BCA625DFE6B50060D325 /* SceneDelegate.swift */,
-				4E87BCA825DFE6B50060D325 /* ViewController.swift */,
-				4E87BCAA25DFE6B50060D325 /* Main.storyboard */,
+				4E87BCC025DFE7520060D325 /* Extension */,
+				4E87BCBF25DFE7450060D325 /* ExtraResource */,
+				4E87BCB925DFE6EF0060D325 /* AppDelegate */,
+				4E87BCBC25DFE70D0060D325 /* Controllers */,
+				4E87BCBE25DFE71A0060D325 /* Views */,
 				4E87BCAD25DFE6BC0060D325 /* Assets.xcassets */,
-				4E87BCAF25DFE6BC0060D325 /* LaunchScreen.storyboard */,
 				4E87BCB225DFE6BC0060D325 /* Info.plist */,
 			);
 			path = LoginApp;
+			sourceTree = "<group>";
+		};
+		4E87BCB925DFE6EF0060D325 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				4E87BCA425DFE6B50060D325 /* AppDelegate.swift */,
+				4E87BCA625DFE6B50060D325 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4E87BCBC25DFE70D0060D325 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E87BCA825DFE6B50060D325 /* LoginViewController.swift */,
+				4E87BCCB25DFED0C0060D325 /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4E87BCBE25DFE71A0060D325 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E87BCAA25DFE6B50060D325 /* Main.storyboard */,
+				4E87BCAF25DFE6BC0060D325 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4E87BCBF25DFE7450060D325 /* ExtraResource */ = {
+			isa = PBXGroup;
+			children = (
+				4E87BCC925DFE8B50060D325 /* Montserrat-Medium.ttf */,
+				4E87BCC325DFE8980060D325 /* BounceButton.swift */,
+				4E87BCC225DFE8980060D325 /* DesignableTextField.swift */,
+				4E87BCC425DFE8980060D325 /* DesignButton.swift */,
+			);
+			path = ExtraResource;
+			sourceTree = "<group>";
+		};
+		4E87BCC025DFE7520060D325 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4E87BCCE25DFEF560060D325 /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +194,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E87BCA925DFE6B50060D325 /* ViewController.swift in Sources */,
+				4E87BCA925DFE6B50060D325 /* LoginViewController.swift in Sources */,
+				4E87BCC625DFE8980060D325 /* BounceButton.swift in Sources */,
 				4E87BCA525DFE6B50060D325 /* AppDelegate.swift in Sources */,
+				4E87BCC725DFE8980060D325 /* DesignButton.swift in Sources */,
 				4E87BCA725DFE6B50060D325 /* SceneDelegate.swift in Sources */,
+				4E87BCC525DFE8980060D325 /* DesignableTextField.swift in Sources */,
+				4E87BCCC25DFED0C0060D325 /* WelcomeViewController.swift in Sources */,
+				4E87BCCF25DFEF560060D325 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
